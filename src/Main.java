@@ -3,7 +3,7 @@ public class Main {
         //task1
 
         int iBox = 4;
-        System.out.println("Значение переменной iBo[ с типом int равно " + iBox);
+        System.out.println("Значение переменной iBox с типом int равно " + iBox);
         byte bBox = 6;
         System.out.println("Значение переменной bBox с типом byte равно " + bBox);
         short sBox = 7;
@@ -36,14 +36,14 @@ public class Main {
         //task4
 
         byte min2Make = 16;
-        System.out.println("за 20 минут машина произвела " + min2Make + " штук");
+        System.out.println("за 2 минуты машина произвела " + min2Make + " штук");
         int min20Make = (min2Make / 2) * 20;
         System.out.println("за 20 минут машина произвела " + min20Make + " штук");
-        int hours24Make = min20Make * 3 * 24;
+        int hours24Make = (min20Make / 20) * (24 * 60);
         System.out.println("за 24 часа машина произвела " + hours24Make + " штук");
         int day3Make = hours24Make * 3;
         System.out.println("за 3 дня машина произвела " + day3Make + " штук");
-        int month1Make = day3Make * 10;
+        int month1Make = (day3Make / 3) * 30;
         System.out.println("за 1 месяц машина произвела " + month1Make + " штук");
 
         //task5
@@ -55,7 +55,7 @@ public class Main {
         int whiteTotal = classTotal * 2;
         int braunTotal = classTotal * 4;
         System.out.println("В школе, где " + classTotal + " классов, нужно "
-                + whiteTotal + " банок белой краски и " + braunTotal + " банок белой краски");
+                + whiteTotal + " банок белой краски и " + braunTotal + " банок коричневой краски");
 
         //task6
 
@@ -67,10 +67,10 @@ public class Main {
         int massIceCreamGr = iceCreamPs * 100;
         byte eggPs = 4;
         int massEggGr = eggPs * 70;
-        int massCoctailGr = (massBananaGr + massMilkGr + massIceCreamGr + massEggGr);
-        System.out.println("Масса коклетя в граммах " + massCoctailGr);
-        float massCoctailKg = massCoctailGr / 1000f;
-        System.out.println("Масса коклетя в килограммах " + massCoctailKg);
+        int massCocktailGr = (massBananaGr + massMilkGr + massIceCreamGr + massEggGr);
+        System.out.println("Масса коктейля в граммах " + massCocktailGr);
+        float massCocktailKg = massCocktailGr / 1000f;
+        System.out.println("Масса коктейля в килограммах " + massCocktailKg);
 
         //task7
 
