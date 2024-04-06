@@ -39,11 +39,11 @@ public class Main {
         System.out.println("за 2 минуты машина произвела " + min2Make + " штук");
         int min20Make = (min2Make / 2) * 20;
         System.out.println("за 20 минут машина произвела " + min20Make + " штук");
-        int hours24Make = (min20Make / 20) * (24 * 60);
+        int hours24Make = (min2Make / 2) * 60 * 24;
         System.out.println("за 24 часа машина произвела " + hours24Make + " штук");
-        int day3Make = hours24Make * 3;
+        int day3Make = (min2Make / 2) * 60 * 24 * 3;
         System.out.println("за 3 дня машина произвела " + day3Make + " штук");
-        int month1Make = (day3Make / 3) * 30;
+        int month1Make = (min2Make / 2) * 60 * 24 * 30;
         System.out.println("за 1 месяц машина произвела " + month1Make + " штук");
 
         //task5
